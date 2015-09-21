@@ -4,3 +4,5 @@
 ## Expectations of Work
 
 ## Expectations of Student Conduct
+
+## Expectations of Mr. Taggert's conduct.
