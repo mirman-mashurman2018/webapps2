@@ -1,14 +1,14 @@
 $(document).ready(function(){
   $("#contact-form").submit(function(event){
     event.preventDefault();
-    var Formstuffs=
+    var stuff=
     {
-    firstname:$("firstname").val(),
-    lastname:$("lastname").val(),
-    email:$("email").val(),
-    message:$("message").val(),
+    firstname:$("#firstname").val(),
+    lastname:$("#lastname").val(),
+    email:$("#email").val(),
+    message:$("#message").val(),
     }
-    return(Formstuffs);
+    console.log(stuff);
     //Use jQuery to collect the values from the fields and create a
     //JSON object containing them. Then, log the result to the console
 
